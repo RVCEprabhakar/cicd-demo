@@ -16,4 +16,8 @@ public class HelloController {
     	return "this is the home";
     	
     }
+    @GetMapping("/status")
+    public String status() {
+        return "New GET endpoint is working!";
+    }
 }
