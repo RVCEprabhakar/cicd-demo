@@ -10,4 +10,10 @@ public class HelloController {
     public String hello() {
         return "Hello! CI/CD practice is working.";
     }
+    
+    @GetMapping("/home")
+    public String home() {
+    	return "this is the home";
+    	
+    }
 }
